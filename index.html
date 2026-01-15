@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="favicon.png">
+    <title>Birthday Wishes</title>
+</head>
+
+<body>
+    <div class="container" loading="lazy">
+        <div class="box">
+            <div class="emoji">
+                <img src="/sticker/itsBday.png" alt="emoji">
+            </div>
+
+            <div class="card">
+                <div class="title">
+                    <h1>
+                        <p>@username's</p>Birthday Countdown
+                    </h1>
+                </div>
+
+                <div class="countdown">
+                    <div class="timer">
+                        <h1>00:00:00:01</h1>
+                    </div>
+                </div>
+
+                <div class="cake">
+                    <img src="/sticker/bDay.png" alt="cake">
+                </div>
+
+                <div class="pop">
+                    <button onclick="pops()">Pop me!</button>
+                </div>
+            </div>
+
+            <div class="popper">
+                <img src="/sticker/popper.gif" alt="popper">
+            </div>
+
+            <div class="flakes">
+                <img src="/sticker/flakes.gif" alt="flakes">
+            </div>
+
+            <div class="credits">
+                <p>This website is one of the projects from <a href="https://www.github.com/aisanaul">aiSanaul</a>'s
+                    guthub repositories.</p>
+            </div>
+
+            <div class="edit">
+                <video class="vids" width="500px">
+                    <source src="edit/edit.mp4" type="video/mp4">
+                    hooligans
+                </video>
+
+                <button onclick="hide()">hide</button>
+            </div>
+
+            <div class="pics active">
+                <div class="titlepics">
+                    <h1>Choose your gift.</h1>
+                </div>
+                
+                <div class="carousel">
+                    <button class="left" onclick="left()"><</button>
+                    <img class="img1 active" src="edit/1.jpg" alt="jois">
+                    <img class="img2" src="edit/2.jpg" alt="kiee">
+                    <img class="img3" src="edit/3.jpg" alt="lass">
+                    <button class="right" onclick="right()">></button>
+                </div>
+                <button class="choose" onclick="choose()">Choose</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="popper.js"></script>
+</body>
+
+</html>
